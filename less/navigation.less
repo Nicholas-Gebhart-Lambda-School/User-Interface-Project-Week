@@ -1,0 +1,60 @@
+nav {
+  background-color: #99a4af;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.9; //Maybe change me?
+  font-family: Roboto, sans-serif;
+
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+
+    .nav-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: #fff;
+  }
+
+  ul {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+    width: 100vw;
+    height: 50vh;
+    justify-content: center;
+    position: fixed;
+    background: #99a4af;
+
+    a {
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 85px;
+      color: white;
+      text-decoration: none;
+      width: 1px;
+      left: -50px;
+      position: relative;
+
+      &:hover {
+        color: #222;
+      }
+    }
+  }
+
+  #hamburger-close {
+    display: none;
+  }
+}
+// h1 no div
+// ul > li
