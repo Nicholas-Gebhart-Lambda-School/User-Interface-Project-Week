@@ -70,7 +70,7 @@ header {
     font-family: @font;
     margin: 40px 5%;
     .portfolio-content-header {
-      margin: 0 auto 40px 0;
+      margin: 0 auto 100px 0;
       position: relative;
       h4 {
         background: @recent-header;
@@ -100,5 +100,45 @@ header {
         left: 0;
       }
     }
+  }
+}
+
+footer {
+  background: gray;
+  font-family: @font;
+  color: #fff;
+  .footer-wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    .footer-text {
+      padding: 8%;
+      display: flex;
+      justify-content: space-between;
+      .registration-container {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        height: 100%;
+        width: 35%;
+        input {
+          padding: 10px 20px;
+          font-size: 20px;
+          border-radius: 8px;
+          margin-bottom: 5px;
+        }
+      }
+      h2 {
+        font-size: 20px;
+        line-height: 24px;
+        padding-bottom: 10px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 26px;
+      }
+    }
+  }
+  small {
+    padding: 0 400px;
   }
 }
